@@ -29,7 +29,7 @@
 ### 4.1. Team Collaboration
 - **Participation**: A significant challenge was the lack of active participation from the majority of the group members, requiring a more concentrated effort to complete the project features.
 
-### 4.2. Session & State Management
+### 4.2. Session Management
 - **Complexity**: Implementing a robust session-based authentication system from scratch using Vanilla PHP was technically demanding. Ensuring data was correctly retrieved, stored, and protected across page transitions required careful logic and testing.
 
 ### 4.3. File Uploads & Validation
