@@ -1,4 +1,4 @@
-# Lens & Frame Studio - Project Documentation
+# Ecommerce (Lens & Frame Studio) - Project Documentation
 
 ## 1. Project Overview
 **Lens & Frame Studio** is a premium, lightweight ecommerce web application designed for professional photographers and videographers. The platform allows users to browse high-quality camera gear, register for an account, and manage their profile through a dedicated, secure dashboard.
