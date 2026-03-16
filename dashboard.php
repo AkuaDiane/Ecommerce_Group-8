@@ -90,7 +90,7 @@ if (!isset($_SESSION['email'])) {
             </div>
 
             <div style="display: flex; gap: 15px; justify-content: center; margin-top: 30px;">
-                <!-- <a href="products.php" class="btn btn-primary">Browse Gear</a> -->
+            
                 <a href="logout.php" class="btn btn-outline" style="border-color: #dc3545; color: #dc3545;">Logout</a>
             </div>
         </div>
