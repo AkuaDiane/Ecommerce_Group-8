@@ -38,7 +38,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
             <h1>Lens & Frame</h1>
         </div>
         <nav>
-            <a href="index.php">Home</a>
+            <a href="index.html">Home</a>
             <a href="products.php">Products</a>
             <a href="register.php">Register</a>
             <a href="login.php" class="active">Login</a>
