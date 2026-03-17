@@ -109,7 +109,7 @@
             <div class="footer-links">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="products.php">Equipment</a></li>
                 </ul>
             </div>
