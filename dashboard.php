@@ -38,7 +38,7 @@ if (!isset($_SESSION['email'])) {
 
 
             <h2>Welcome, <?php echo $_SESSION['fullname']; ?></h2>
-            <p style="color: var(--text-muted); margin-bottom: 20px;">
+            <p style="color: #737373; margin-bottom: 20px;">
                 <?php echo isset($_SESSION['email']) ? $_SESSION['email'] : ''; ?>
             </p>
 

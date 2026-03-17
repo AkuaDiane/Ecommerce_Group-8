@@ -61,8 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $_SESSION['email'] = $email;
     $_SESSION['password'] = $password;
     $_SESSION['profile_image'] = $profilePath;
-    $_SESSION['message'] = "Registration successful";
-
+  
     header("Location: login.php");
     exit();
 }

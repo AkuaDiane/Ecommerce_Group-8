@@ -10,8 +10,6 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         isset($_SESSION['email']) && $_SESSION['email'] === $email &&
         isset($_SESSION['password']) && $_SESSION['password'] === $password
     ) {
-
-        $_SESSION['message'] = "Login successful";
         header("Location: dashboard.php");
         exit();
     } else {
@@ -47,26 +45,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
 
     <main>
         <div class="auth-container">
-            <h2>Welcome Back</h2>
-
-            <?php if (isset($_SESSION['error'])): ?>
-                <div class="message error">
-                    <?php
-                    echo $_SESSION['error'];
-                    unset($_SESSION['error']);
-                    ?>
-                </div>
-            <?php endif; ?>
-
-            <?php if (isset($_SESSION['message'])): ?>
-                <div class="message success">
-                    <?php
-                    echo $_SESSION['message'];
-                    unset($_SESSION['message']);
-                    ?>
-                </div>
-            <?php endif; ?>
-
+            <h2>Welcome Back</h2>\
             <form action="login.php" method="POST">
                 <div class="form-group">
                     <label for="email">Email Address</label>
